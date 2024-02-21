@@ -1,0 +1,536 @@
+@media only screen and (max-width: 980px) {
+    .primary_btn {
+        width: 125.5px;
+        height: 46px;
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 920px) {
+    .call-us {
+        display: none;
+    }
+
+    .content-right {
+        justify-content: space-between;
+        width: 75%;
+    }
+
+    .logo {
+        margin-left: 20px;
+    }
+
+    .logo p {
+        font-size: 1.4rem;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .content-right {
+        justify-content: flex-end;
+    }
+
+    .hamburger {
+        display: block;
+        margin-left: 20px;
+    }
+
+    .content-right .icon {
+        position: absolute;
+        color: red;
+        top: 120px;
+        transition: all 0.3s ease 0s;
+        z-index: 3;
+        left: -100%;
+    }
+
+    .content-right .icon ul {
+        flex-direction: column;
+        margin-top: 18px;
+    }
+
+    .content-right .icon ul li {
+        margin: 20px 0px;
+        font-size: 20px;
+    }
+
+    .menu {
+        position: absolute;
+        width: 100%;
+        left: -110%;
+        top: 100px;
+        transition: all 0.3s ease 0s;
+        background-color: aliceblue;
+        z-index: 2;
+    }
+
+    .menu ul {
+        margin: 22px 0px;
+        flex-direction: column;
+    }
+
+    .menu ul li {
+        font-size: 1.2rem;
+        font-weight: 400;
+        margin: 15px 0px;
+        width: 12%;
+    }
+
+    #nav_check:checked~.menu {
+        left: 0px;
+    }
+
+    #nav_check:checked~.icon {
+        left: 92%;
+    }
+
+    .logo {
+        margin-left: 15px;
+    }
+
+    .logo p {
+        font-size: 1.4rem;
+    }
+
+    .primary_btn {
+        width: 155.5px;
+        height: 40px;
+        font-size: 12px;
+    }
+
+    .reservation i {
+        margin-right: 5px;
+    }
+
+    .main_container {
+        width: 75%;
+    }
+
+    .banner_right {
+        width: 50%;
+        margin-right: 15%;
+    }
+
+    .bannermodel {
+        margin-top: 6%;
+    }
+
+    .box_stext {
+        font-size: calc(2px + 1.1vw);
+        line-height: 14px;
+    }
+
+    .abouttextsmall {
+        font-size: calc(2px + 1.1vw);
+    }
+
+    .abouttextbig {
+        font-size: calc(3px + 3vw);
+        margin: 5px 0px;
+    }
+
+    .abouttextverysmall {
+        font-size: calc(2px + 1vw);
+        line-height: 160%;
+    }
+
+    .square {
+        width: 18%;
+        height: 12vw;
+        top: 34vw;
+        left: 41.5%;
+    }
+
+    .ls_smalltext {
+        font-size: 0.9vw;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    .testi_cards {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+    .testi_card {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .appointment_container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .appointment_left {
+        width: 80%;
+        margin: auto;
+        margin-bottom: 30px;
+        display: flex;
+        justify-content: space-between;
+        gap: 7px;
+        flex-direction: column;
+    }
+
+    .offer_box img {
+        margin-top: 20px;
+        width: 80%;
+    }
+
+    .appointment_right {
+        width: 80%;
+        margin: auto;
+
+    }
+
+    .appointment_btn {
+        margin-top: 30px;
+        padding: 4% 3%;
+        font-size: 1.5vw;
+    }
+
+    .form input::placeholder {
+        font-size: calc(2px + 1.5vw);
+    }
+
+    .footer_info p {
+        margin: 7px 0;
+        font-size: calc(2px + 1.1vw);
+    }
+
+    .footer_info .f-bold {
+        font-size: calc(3px + 1vw);
+        margin-bottom: 30px;
+    }
+
+    .footer_info a {
+        color: white;
+        font-size: calc(2px + 1.1vw);
+    }
+
+
+
+}
+
+@media only screen and (max-width: 450px) {
+    .logo {
+        margin-left: 2px;
+    }
+
+    .logo p {
+        font-size: 1rem;
+    }
+
+    .primary_btn {
+        width: 83.5px;
+        height: 33px;
+        font-size: 8px;
+    }
+
+    .hamburger {
+        margin-left: 5px;
+    }
+
+    .main_container {
+        width: 92%;
+    }
+
+    .banner_bg {
+        width: 50%;
+        right: -6%;
+    }
+
+    .banner_left {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .imgbox {
+        width: 70%;
+        margin: auto;
+    }
+
+    .servicebox {
+        width: 100%;
+        margin: 10px 0 10px 0;
+    }
+
+    .service_charge_box {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        float: none;
+        margin: auto;
+    }
+
+    .points_boldtext {
+        font-size: 3.2vw;
+    }
+
+    .from_text {
+        font-size: 2.4vw;
+    }
+
+    .points_smalltext {
+        font-size: 2.2vw;
+    }
+
+    .ourservices_text {
+        font-size: 1.8vw;
+    }
+
+    .ourservices_heading {
+        font-size: 3.8vw;
+    }
+
+    .appointment_btn {
+        margin-top: 30px;
+        padding: 4% 3%;
+        font-size: 1.5vw;
+    }
+
+    .service_charge_box2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .upper_part,
+    .down_part {
+        flex-direction: column;
+        /* justify-content: space-between; */
+        margin: 40px 0px;
+    }
+
+    .benefitsContent_box {
+        width: 80%;
+        margin: auto;
+        display: flex;
+
+    }
+
+    .benefits_largetext {
+        margin: 4px 0px 8px 0px;
+        font-size: calc(5px + 1.5vw);
+    }
+
+    .benefits_para {
+        font-size: calc(3px + 1.2vw);
+    }
+
+    .trueicon img {
+        width: 60%;
+    }
+
+    .ls_blog {
+        flex-direction: column;
+    }
+
+    .ls_card {
+        width: 90%;
+        margin: auto;
+    }
+
+    .ls_smalltext {
+        font-size: 1.9vw;
+    }
+
+    .benefits_largetext {
+        margin: 4px 0px 8px 0px;
+        font-size: calc(5px + 2.5vw);
+    }
+
+    .ls_verysmalltext {
+        font-size: 2.5vw;
+        line-height: 160%;
+    }
+
+    .ls_card_text {
+        margin: 14px 0px 25px 10px;
+    }
+}
+
+@media only screen and (max-width: 380px) {
+    .main_container {
+        width: 65%;
+    }
+
+    .banner_container {
+        flex-direction: column;
+    }
+
+    .banner_bg {
+        display: none;
+    }
+
+    .banner_right {
+        display: none;
+    }
+
+    .banner_left {
+        width: 100%;
+        justify-content: space-around;
+    }
+
+    .banner_subtitle p {
+        font-size: calc(8px + 0.6vw);
+    }
+
+    .titleheading {
+        font-size: calc(12px + 2.4vw);
+    }
+
+    .titleh4 {
+        font-size: calc(5px + 0.7vw);
+    }
+
+    .boxesparent {
+        flex-direction: column;
+    }
+
+    .box1 {
+        width: 80%;
+        align-items: center;
+        margin: 10px 0px;
+    }
+
+    .box_heading {
+        font-size: 5vw;
+        margin: 15px 0px 5px;
+    }
+
+    .box_stext {
+        font-size: 2.2vw;
+        line-height: 12px;
+        margin: 3px 0px 16px;
+    }
+
+    .read_more {
+        font-size: 1.8vw;
+        padding: 4% 0px;
+        width: 50%;
+    }
+
+    .about_container {
+        flex-direction: column;
+    }
+
+    .about-left {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin: 12px 0px;
+    }
+
+    .abouttextsmall {
+        font-size: calc(3px + 1.1vw);
+    }
+
+    .abouttextbig {
+        font-size: calc(5px + 3vw);
+        margin: 5px 0px;
+    }
+
+    .abouttextverysmall {
+        font-size: calc(3px + 1.1vw);
+        line-height: 160%;
+    }
+
+    .about-right {
+        width: 100%;
+    }
+
+    .testi_cardtext p {
+        padding: 10px 10px;
+    }
+
+    .benefitsContent_box {
+        width: 100%;
+
+    }
+
+
+    .footer_info {
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .f-menu {
+        width: 50%;
+        margin: auto;
+        text-align: center;
+        padding: 0 0 0 10px;
+    }
+
+    .f-kit {
+        width: 50%;
+        margin: auto;
+        text-align: center;
+        padding: 0 0 0 10px;
+    }
+
+    .f-utility_pages {
+        width: 50%;
+        margin: auto;
+        text-align: center;
+        padding: 0 0 0 10px;
+    }
+
+    .f-hours {
+        width: 50%;
+        margin: auto;
+        text-align: center;
+        padding: 0 0 0 10px;
+    }
+
+    .footer_info .f-bold {
+        font-size: calc(3px + 1.2vw);
+        margin-bottom: 0;
+    }
+
+    .footer_info li {
+        margin: 0 0;
+    }
+
+    .footer_info p {
+        margin: 10px 0;
+        font-size: calc(2px + 1.1vw);
+    }
+
+    .footer_nav .icon ul li {
+        border: 2px solid rgba(92, 134, 146, 1);
+        color: white;
+        padding: 3px 3px;
+    }
+
+    .logop {
+        font-size: calc(1px + 2.5vw);
+        margin-bottom: 6px;
+    }
+
+    .footer_info a {
+        color: white;
+        font-size: calc(3px + 1.1vw);
+    }
+
+    .footer_info p {
+        margin: 10px 0;
+        font-size: calc(3px + 1.1vw);
+    }
+
+    .view_more_btn {
+        width: 50%;
+        font-family: var(--manrope);
+        font-size: calc(2px + 1vw);
+        font-weight: 800;
+        letter-spacing: 0.12em;
+        text-align: center;
+        padding: 15px 0px;
+    }
+}
